@@ -1,5 +1,4 @@
-include Java
-
+require 'java'
 require 'src/GameScreen'
 
 Dir["libs/\*.jar"].each {|jar| require jar}
