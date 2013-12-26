@@ -1,5 +1,4 @@
-include Java
-
+require 'java'
 require 'libs/gdx.jar'
 require 'src/GameScreen'
 
