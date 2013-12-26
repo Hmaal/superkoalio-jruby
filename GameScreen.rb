@@ -83,7 +83,7 @@ class GameScreen
     
         cell = layer.getCell(x, y)
         
-        if !cell.nil?
+        unless cell.nil?
           
           rect = @rectPool.obtain
           rect.set(x, y, 1, 1)
