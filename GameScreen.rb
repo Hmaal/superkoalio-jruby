@@ -1,5 +1,4 @@
-include Java
-
+require 'java'
 require 'libs/gdx.jar'
 require 'src/Player'
 require 'src/util/TextureSetup'
